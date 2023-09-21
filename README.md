@@ -5,3 +5,6 @@
 - KeyPath
   - Dynamic Member Lookup
   - KeyPath Member Lookup
+- Enum
+  - caseをプロトコルで定義
+  - caseのassociatedValueをクロージャーで表す
