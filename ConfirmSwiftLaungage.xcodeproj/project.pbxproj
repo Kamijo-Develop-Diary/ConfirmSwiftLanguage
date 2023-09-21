@@ -14,6 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B26326A22ABBF9F3007A46B7 /* Enum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Enum.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B2AC063F2AB9C0060085FB57 /* ConfirmSwiftLaungage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConfirmSwiftLaungage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2AC06422AB9C0060085FB57 /* ConfirmSwiftLaungageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmSwiftLaungageApp.swift; sourceTree = "<group>"; };
 		B2AC06442AB9C0060085FB57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +60,7 @@
 				B2AC06482AB9C0060085FB57 /* Preview Content */,
 				B2AC06502AB9C0430085FB57 /* KeyPath.playground */,
 				B2AC06512AB9F9340085FB57 /* Min+Max.playground */,
+				B26326A22ABBF9F3007A46B7 /* Enum.playground */,
 			);
 			path = ConfirmSwiftLaungage;
 			sourceTree = "<group>";
