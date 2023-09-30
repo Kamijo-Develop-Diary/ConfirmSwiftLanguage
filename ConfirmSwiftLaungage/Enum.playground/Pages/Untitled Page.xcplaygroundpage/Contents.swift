@@ -64,3 +64,9 @@ testFunction2(embed: Test1.action2)
 //testFunction2(embed: Test2.action1) <- compile error
 testFunction3(embed: Test1.action1)
 testFunction3(embed: Test2.action1)
+
+enum HogeAction {
+    case action1
+    case action2(id: String)
+}
+

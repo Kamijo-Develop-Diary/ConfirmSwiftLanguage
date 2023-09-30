@@ -11,7 +11,7 @@ import SwiftUI
 struct ConfirmSwiftLaungageApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CasePathDebug()
         }
     }
 }
