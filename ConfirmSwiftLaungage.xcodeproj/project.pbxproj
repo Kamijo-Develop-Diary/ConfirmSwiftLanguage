@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		B2AC06432AB9C0060085FB57 /* ConfirmSwiftLaungageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AC06422AB9C0060085FB57 /* ConfirmSwiftLaungageApp.swift */; };
-		B2AC06452AB9C0060085FB57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AC06442AB9C0060085FB57 /* ContentView.swift */; };
+		B2AC06452AB9C0060085FB57 /* CasePathDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AC06442AB9C0060085FB57 /* CasePathDebug.swift */; };
 		B2AC06472AB9C0060085FB57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2AC06462AB9C0060085FB57 /* Assets.xcassets */; };
 		B2AC064A2AB9C0060085FB57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2AC06492AB9C0060085FB57 /* Preview Assets.xcassets */; };
+		B2F6CC502AC724B900A72A5E /* CasePaths in Frameworks */ = {isa = PBXBuildFile; productRef = B2F6CC4F2AC724B900A72A5E /* CasePaths */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B26326A22ABBF9F3007A46B7 /* Enum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Enum.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B2AC063F2AB9C0060085FB57 /* ConfirmSwiftLaungage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConfirmSwiftLaungage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2AC06422AB9C0060085FB57 /* ConfirmSwiftLaungageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmSwiftLaungageApp.swift; sourceTree = "<group>"; };
-		B2AC06442AB9C0060085FB57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B2AC06442AB9C0060085FB57 /* CasePathDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasePathDebug.swift; sourceTree = "<group>"; };
 		B2AC06462AB9C0060085FB57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2AC06492AB9C0060085FB57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B2AC06502AB9C0430085FB57 /* KeyPath.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = KeyPath.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B2AC06512AB9F9340085FB57 /* Min+Max.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Min+Max.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B2F6CC4D2AC7248300A72A5E /* Swift-case-paths.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Swift-case-paths.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2F6CC502AC724B900A72A5E /* CasePaths in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,12 +58,13 @@
 			isa = PBXGroup;
 			children = (
 				B2AC06422AB9C0060085FB57 /* ConfirmSwiftLaungageApp.swift */,
-				B2AC06442AB9C0060085FB57 /* ContentView.swift */,
+				B2AC06442AB9C0060085FB57 /* CasePathDebug.swift */,
 				B2AC06462AB9C0060085FB57 /* Assets.xcassets */,
 				B2AC06482AB9C0060085FB57 /* Preview Content */,
 				B2AC06502AB9C0430085FB57 /* KeyPath.playground */,
 				B2AC06512AB9F9340085FB57 /* Min+Max.playground */,
 				B26326A22ABBF9F3007A46B7 /* Enum.playground */,
+				B2F6CC4D2AC7248300A72A5E /* Swift-case-paths.playground */,
 			);
 			path = ConfirmSwiftLaungage;
 			sourceTree = "<group>";
@@ -89,6 +93,9 @@
 			dependencies = (
 			);
 			name = ConfirmSwiftLaungage;
+			packageProductDependencies = (
+				B2F6CC4F2AC724B900A72A5E /* CasePaths */,
+			);
 			productName = ConfirmSwiftLaungage;
 			productReference = B2AC063F2AB9C0060085FB57 /* ConfirmSwiftLaungage.app */;
 			productType = "com.apple.product-type.application";
@@ -117,6 +124,9 @@
 				Base,
 			);
 			mainGroup = B2AC06362AB9C0060085FB57;
+			packageReferences = (
+				B2F6CC4E2AC724B900A72A5E /* XCRemoteSwiftPackageReference "swift-case-paths" */,
+			);
 			productRefGroup = B2AC06402AB9C0060085FB57 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -143,7 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2AC06452AB9C0060085FB57 /* ContentView.swift in Sources */,
+				B2AC06452AB9C0060085FB57 /* CasePathDebug.swift in Sources */,
 				B2AC06432AB9C0060085FB57 /* ConfirmSwiftLaungageApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,6 +355,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B2F6CC4E2AC724B900A72A5E /* XCRemoteSwiftPackageReference "swift-case-paths" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-case-paths.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B2F6CC4F2AC724B900A72A5E /* CasePaths */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B2F6CC4E2AC724B900A72A5E /* XCRemoteSwiftPackageReference "swift-case-paths" */;
+			productName = CasePaths;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B2AC06372AB9C0060085FB57 /* Project object */;
 }
