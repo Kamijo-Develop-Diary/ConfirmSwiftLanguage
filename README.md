@@ -1,10 +1,13 @@
 # ConfirmSwiftLanguage
-言語使用の挙動を確かめるプロジェクト
+Swiftの挙動を色々確かめる用のプロジェクト
 
-## 内容
+## 言語使用
 - KeyPath
   - Dynamic Member Lookup
   - KeyPath Member Lookup
 - Enum
   - caseをプロトコルで定義
   - caseのassociatedValueをクロージャーで表す
+
+## TCA
+- swift-case-paths
